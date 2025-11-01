@@ -35,7 +35,7 @@ This method uses the `Schedule-Theme-Tasks.ps1` script to automatically create a
 
 3.  **Navigate to the script directory:** In the administrator PowerShell window, change to the directory where you saved the scripts:
     ```powershell
-    cd "C:\Users\rrrai\OneDrive\Documents\windows auto light and dark mode" # Adjust this path to where you saved the files
+    cd "C:\Users\%username%\Documents\windows auto light and dark mode" # Adjust this path to where you saved the files
     ```
 
 4.  **Run the scheduling script:** Execute the script to create the scheduled tasks:
@@ -57,7 +57,7 @@ This method allows you to manually import the scheduled tasks using the provided
 
 3.  **Import the Light Mode Task:**
     *   In the "Actions" pane on the right, click "Import Task...".
-    *   Navigate to the directory where you saved the files (e.g., `C:\Users\rrrai\OneDrive\Documents\windows auto light and dark mode`).
+    *   Navigate to the directory where you saved the files (e.g., `C:\Users\%username%\Documents\windows auto light and dark mode`).
     *   Select `AutoLightModeAllUsers.xml` and click "Open".
     *   Review the task settings in the dialog that appears and click "OK".
 
